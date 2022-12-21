@@ -1,15 +1,19 @@
 # oplot-graphics, a Graphics backend for Oplot
 
-[Oplot](https://github.com/sanette/oplot) is a library for mathematical plotting using OpenGL graphics.
+[Oplot](https://github.com/sanette/oplot) is an
+[OCaml](https://ocaml.org/) library for mathematical plotting using
+OpenGL graphics.
 
 `oplot-graphics` is a plugin for extending Oplot. It will enable the
-use of the X11 graphics library through the [Graphics]() ocaml
+use of the X11 graphics library (unix) or the Win32 API (Windows)
+through the [Graphics](https://github.com/ocaml/graphics) ocaml
 library.
 
 ## WIP
 
 Currently `oplot-graphics` is not that useful because only a subset of
-Oplot is implemented.  The original Oplot library should be better for
+Oplot is implemented. Moreover the output quality of the Graphics
+library is debatable. The original Oplot library should be better for
 most users.
 
 ## Usage
