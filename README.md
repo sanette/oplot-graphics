@@ -38,3 +38,16 @@ let a = axis 0. 0.;;
 
 display ~dev:x11 [ Color red; p; Color black; a ];;
 ```
+
+See the `test` directory.
+
+`oplot-graphics` can also be used from the toplevel. After starting
+the toplevel (`ocaml` or `utop`), just load the library with
+
+```ocaml
+#use "topfind";;
+#thread;;
+#require "oplot-graphics";;
+```
+
+You may then copy/paste the example above.
