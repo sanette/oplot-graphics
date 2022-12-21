@@ -16,7 +16,7 @@ most users.
 
 Install the library:
 ```
-opam pin https://github.com/sanette/oplot-graphics
+opam pin https://github.com/sanette/oplot-graphics.git
 ```
 
 Then in `ocaml` files just use the alias
