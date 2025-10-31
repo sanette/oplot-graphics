@@ -1,5 +1,5 @@
 (lang dune 2.7)
-(version "0.1")
+(version "0.1.2")
 (name oplot-graphics)
 (generate_opam_files true)
 (license ISC)
