@@ -1,7 +1,5 @@
 (* Basic Oplot example with Graphics backend *)
 
-module Oplot = Oplot_graphics
-
 open Oplot.Plt
 
 let p = plot sin (-2.) 20.

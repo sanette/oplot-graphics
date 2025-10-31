@@ -1,4 +1,5 @@
 (library
  (name oplot_graphics)
  (public_name oplot-graphics)
- (libraries oplot graphics))
+ (implements oplot)
+ (libraries graphics))
