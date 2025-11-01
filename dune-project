@@ -4,7 +4,8 @@
 (generate_opam_files true)
 (license ISC)
 (authors "Vu Ngoc San <san.vu-ngoc@laposte.net>")
-;(source (github sanette/oplot-graphics))
+(maintainers "Vu Ngoc San <san.vu-ngoc@laposte.net>")
+(source (github sanette/oplot-graphics))
 
 (package
  (name oplot-graphics)

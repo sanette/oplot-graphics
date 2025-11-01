@@ -4,9 +4,12 @@ version: "0.1.2"
 synopsis: "Oplot Plugin for using the Graphics backend"
 description:
   "oplot-graphics enables the use of the Graphics backend for oplot"
+maintainer: ["Vu Ngoc San <san.vu-ngoc@laposte.net>"]
 authors: ["Vu Ngoc San <san.vu-ngoc@laposte.net>"]
 license: "ISC"
 tags: ["plot" "2D" "3D" "math"]
+homepage: "https://github.com/sanette/oplot-graphics"
+bug-reports: "https://github.com/sanette/oplot-graphics/issues"
 depends: [
   "dune" {>= "2.7"}
   "oplot" {>= "0.6.9"}
@@ -26,3 +29,4 @@ build: [
     "@doc" {with-doc}
   ]
 ]
+dev-repo: "git+https://github.com/sanette/oplot-graphics.git"
