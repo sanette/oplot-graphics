@@ -30,7 +30,7 @@ module Oplot = Oplot_graphics
 
 ```
 
-and then use Oplot as usual. The `x11` device must be explicitly
+and then use Oplot as usual. The `graphics` device must be explicitly
 selected, for instance:
 
 ```ocaml
@@ -40,7 +40,7 @@ open Oplot.Plt
 let p = plot sin (-2.) 20.
 let a = axis 0. 0.;;
 
-display ~dev:x11 [ Color red; p; Color black; a ];;
+display ~dev:graphics [ Color red; p; Color black; a ];;
 ```
 
 See the `test` directory.

@@ -6,5 +6,5 @@ open Oplot.Plt
 let p = plot sin (-2.) 20.
 let a = axis 0. 0.;;
 
-display ~dev:x11 [ Color red; p; Color black; a ];;
+display ~dev:graphics [ Color red; p; Color black; a ];;
 quit ()
